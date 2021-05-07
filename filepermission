@@ -1,0 +1,25 @@
+Number	   Permission Type	         Symbol
+0           	No Permission	            ---
+1	            Execute	                  --x
+2	            Write	                    -w-
+3            	Execute + Write	          -wx
+4	            Read	                    r--
+5	            Read + Execute	          r-x
+6	            Read +Write	              rw-
+7           	Read + Write +Execute    	rwx
+
+
+the 'chmod' command which stands for 'change mode'. Using the command, we can set permissions (read, write, execute) on a file/directory for the owner, group and the world. Syntax:
+
+"chmod permissions filename"
+
+
+Changing Ownership and Group
+For changing the ownership of a file/directory, you can use the following command:
+
+chown user
+
+
+In case you want to change the user as well as group for a file or directory use the command
+
+chown user:group filename
