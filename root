@@ -1,0 +1,15 @@
+/ – The Root
+Everything begins in your system from this directory. All your folders, hard drives, USB drivers, everything is located in this root folder.
+
+
+/bin – Binaries
+The /bin folder contains programs that are essential for the system to boot and run. So, if you destroy this folder, your system won’t boot and run.
+
+/boot – Boot Files
+It is easy to guess from the name. This folder is needed to boot your system. It contains the Linux kernel, initial RAM disk image for drives need at boot time, and the bootloader.
+
+/etc – Configuration Files
+The /etc folder comprises all system-wide configuration files and some shell scripts that are executed during the system boot. All files here are text files, so they are human readable.
+
+/home – Users’ Folder
+The home directory contains a home folder for each regular user on your Linux system. 
